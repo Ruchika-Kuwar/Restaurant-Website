@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FoodZone</title>
+  <link rel="stylesheet" href="restaurant.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">🍔 FoodZone</div>
+    <nav class="navbar" id="navbar">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      
+      </ul>
+    </nav>
+    <div class="hamburger" id="hamburger">
+      ☰
+    </div>
+  </header>
+
+  <section class="hero" class id="home">
+  <div class="hero-content">
+    <h1>Fresh. Fast. Delicious.</h1>
+    <p>Your favorite meals delivered to your door — hot and fresh every time.</p>
+    <div class="hero-buttons">
+      <a href="#menu" class="btn-primary">Explore Menu</a>
+      
+    </div>
+  </div>
+</section>
+
+<section class="menu-preview" class id="menu">
+  <h2 class="section-title">Menu Preview</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <img src="c:\Users\Dell\Desktop\restaurant - Copy\download.jpeg" alt="Pizza">
+      <h3>Farmhouse Pizza</h3>
+      <p class="price">₹349</p>
+      <button class="quick-view" data-item="Farmhouse Pizza">Quick View</button>
+    </div>
+    <div class="menu-item">
+      <img src="c:\Users\Dell\Desktop\restaurant - Copy\img2.jpeg" alt="Burger">
+      <h3>Burger</h3>
+      <p class="price">₹199</p>
+      <button class="quick-view" data-item="Burger">Quick View</button>
+    </div>
+    <div class="menu-item">
+      <img src="c:\Users\Dell\Desktop\restaurant - Copy\desserts.jpeg" alt="Dessert">
+      <h3>desserts</h3>
+      <p class="price">₹299</p>
+      <button class="quick-view" data-item="Dessert">Quick View</button>
+    </div>
+  </div>
+</section>
+
+<section class="about-section" class id="about">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg" alt="Restaurant">
+    </div>
+
+    <div class="about-content">
+      <h2>About Our Restaurant</h2>
+      <p>
+        Welcome to <strong>FoodHub</strong>, where taste meets quality!  
+        We cook with love, passion, and the freshest ingredients to bring you the best dining experience.  
+        Whether you're craving spicy, sweet, or savory — we’ve got you covered with a wide range of delicious dishes.
+      </p>
+
+      <p>
+        Our chefs bring years of culinary expertise to every plate, ensuring every bite is unforgettable.
+        Enjoy freshly prepared meals delivered right to your door.
+      </p>
+
+      <button class="about-btn">Explore Menu</button>
+    </div>
+  </div>
+</section>
+
+
+<!-- Modal Preview -->
+<div id="preview-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h3 id="modal-title">Dish Name</h3>
+    <p>This is a delicious and flavorful dish. More details coming soon.</p>
+  </div>
+</div>
+
+
+<section class="features">
+  <h2 class="features-title">Why Choose FoodHub?</h2>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="icon">🍅</div>
+      <h3>Fresh Ingredients</h3>
+      <p>We use only the freshest ingredients to craft your meals.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">⚡</div>
+      <h3>Fast Delivery</h3>
+      <p>Get your food delivered hot and on time, every time.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">👨‍🍳</div>
+      <h3>Expert Chefs</h3>
+      <p>Our experienced chefs cook with passion and precision.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">💳</div>
+      <h3>Secure Payment</h3>
+      <p>Pay easily with our secure and seamless system.</p>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials" class id="reviews" >
+  <h2 class="section-title">What Our Customers Say</h2>
+  <div class="testimonial-container">
+    <div class="testimonial-slider" id="testimonialSlider">
+      <div class="testimonial">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User 1">
+        <h3>Riya Sharma</h3>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>“Absolutely love the food here! Fast delivery and delicious meals every time.”</p>
+      </div>
+      <div class="testimonial">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User 2">
+        <h3>Aditya Mehra</h3>
+        <div class="stars">⭐⭐⭐⭐</div>
+        <p>“The biryani was amazing! Would definitely recommend FoodHub to my friends.”</p>
+      </div>
+      <div class="testimonial">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="User 3">
+        <h3>Anjali Verma</h3>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>“Fresh food, great prices, and super easy to order. What more could you want?”</p>
+      </div>
+    </div>
+    <div class="dots" id="dotsContainer"></div>
+  </div>
+</section>
+
+<section class="contact-section" class id="contact">
+  <h2 class="section-title">Contact Us</h2>
+  <form class="contact-form" id="contactForm">
+    <div class="form-group">
+      <input type="text" id="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+      <input type="email" id="email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+    </div>
+    <button type="submit">Send Message</button>
+    <p class="form-status" id="formStatus"></p>
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>🍔 FoodHub</h3>
+      <p>Your go-to FoodZone for fresh, fast & delicious meals delivered to your doorstep.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><span>🌐</span></a>
+        <a href="#"><span>📘</span></a>
+        <a href="#"><span>📸</span></a>
+        <a href="#"><span>🐦</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 FoodHub. All rights reserved.</p>
+    <button id="scrollTopBtn" title="Go to top">⬆️</button>
+  </div>
+</footer>
+
+  <script src="restaurant.js"></script>
+</body>
+</html>
+
