@@ -1,18 +1,16 @@
-# Restaurant-Website
-A responsive Restaurant Website developed using PHP, MySQL, HTML, CSS with food ordering and admin management features.
-# Campus Management System
+# Restaurant Website
 
-A web-based Campus Management System developed using PHP, MySQL, HTML, CSS.
+A responsive Restaurant Website developed using PHP, MySQL, HTML, CSS.
 
 ## Features
-- Student Management
-- Faculty Management
-- Attendance System
-- Secure Login Authentication
+- User Login & Registration
+- Food Menu
+- Cart System
+- Order Management
+- Admin Panel
 
 ## Technologies Used
 - PHP
 - MySQL
 - HTML
 - CSS
-  
